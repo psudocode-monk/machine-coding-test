@@ -1,0 +1,123 @@
+export const reactQuestions = [
+  // EASY (1–35)
+  { id: 1, name: "Counter App", route: "/counter-app" },
+  { id: 2, name: "Toggle Button", route: "/toggle-button" },
+  { id: 3, name: "Character Counter", route: "/character-counter" },
+  { id: 4, name: "Password Toggle Input", route: "/password-toggle" },
+  { id: 5, name: "Basic Form Validation", route: "/form-validation-basic" },
+  { id: 6, name: "Todo List Basic", route: "/todo-basic" },
+  { id: 7, name: "Todo List with Checkbox", route: "/todo-checkbox" },
+  { id: 8, name: "Search Filter List", route: "/search-filter" },
+  { id: 9, name: "Image Toggle", route: "/image-toggle" },
+  { id: 10, name: "Color Picker", route: "/color-picker" },
+
+  { id: 11, name: "Accordion", route: "/accordion" },
+  { id: 12, name: "Tabs Component", route: "/tabs" },
+  { id: 13, name: "Star Rating", route: "/star-rating" },
+  { id: 14, name: "Progress Bar", route: "/progress-bar" },
+  { id: 15, name: "Like Button", route: "/like-button" },
+
+  { id: 16, name: "Simple Modal", route: "/modal" },
+  { id: 17, name: "Dropdown Menu", route: "/dropdown" },
+  { id: 18, name: "Input Mirror", route: "/input-mirror" },
+  { id: 19, name: "List Sorting", route: "/list-sorting" },
+  { id: 20, name: "Number Guess Game", route: "/guess-number" },
+
+  { id: 21, name: "Dark Light Mode", route: "/dark-light-mode" },
+  { id: 22, name: "Timer", route: "/timer" },
+  { id: 23, name: "Debounced Search", route: "/debounced-search" },
+  { id: 24, name: "Multi Select Checkbox", route: "/multi-select" },
+  { id: 25, name: "Pagination Static", route: "/pagination-static" },
+
+  { id: 26, name: "Toast Notification", route: "/toast" },
+  { id: 27, name: "Tooltip", route: "/tooltip" },
+  { id: 28, name: "Copy to Clipboard", route: "/copy-clipboard" },
+  { id: 29, name: "File Upload UI", route: "/file-upload" },
+  { id: 30, name: "Password Strength Indicator", route: "/password-strength" },
+
+  { id: 31, name: "Input Character Limit", route: "/input-limit" },
+  { id: 32, name: "Range Slider", route: "/range-slider" },
+  { id: 33, name: "Stepper", route: "/stepper" },
+  { id: 34, name: "Expandable List", route: "/expandable-list" },
+  { id: 35, name: "Basic Table", route: "/table-basic" },
+
+  // MEDIUM (36–70)
+  { id: 36, name: "Todo App with Edit", route: "/todo-edit" },
+  { id: 37, name: "Todo with LocalStorage", route: "/todo-localstorage" },
+  { id: 38, name: "Infinite Scroll", route: "/infinite-scroll" },
+  { id: 39, name: "Debounced API Search", route: "/debounced-api" },
+  { id: 40, name: "Autocomplete Search", route: "/autocomplete" },
+
+  { id: 41, name: "Multi Step Form", route: "/multi-step-form" },
+  { id: 42, name: "Dynamic Form Fields", route: "/dynamic-form" },
+  { id: 43, name: "Drag and Drop List", route: "/drag-drop-list" },
+  { id: 44, name: "Kanban Board Basic", route: "/kanban-basic" },
+  { id: 45, name: "Image Carousel", route: "/carousel" },
+
+  { id: 46, name: "Table Sorting", route: "/table-sorting" },
+  { id: 47, name: "Table Pagination Search", route: "/table-advanced" },
+  { id: 48, name: "Nested Comments", route: "/nested-comments" },
+  { id: 49, name: "Chat UI", route: "/chat-ui" },
+  { id: 50, name: "Poll Voting App", route: "/poll-app" },
+
+  { id: 51, name: "Shopping Cart", route: "/shopping-cart" },
+  { id: 52, name: "Product Filter", route: "/product-filter" },
+  { id: 53, name: "Wishlist Feature", route: "/wishlist" },
+  { id: 54, name: "Rating Review System", route: "/reviews" },
+  { id: 55, name: "Dashboard Cards", route: "/dashboard-cards" },
+
+  { id: 56, name: "Sidebar Navigation", route: "/sidebar" },
+  { id: 57, name: "Breadcrumb Navigation", route: "/breadcrumb" },
+  { id: 58, name: "Protected Routes", route: "/protected-routes" },
+  { id: 59, name: "Theme Switcher", route: "/theme-switcher" },
+  { id: 60, name: "Form Builder", route: "/form-builder" },
+
+  { id: 61, name: "Calendar Picker", route: "/calendar" },
+  { id: 62, name: "File Upload Preview", route: "/file-preview" },
+  { id: 63, name: "Image Gallery", route: "/gallery" },
+  { id: 64, name: "Notification System", route: "/notifications" },
+  { id: 65, name: "Markdown Previewer", route: "/markdown" },
+
+  { id: 66, name: "Stopwatch with Laps", route: "/stopwatch" },
+  { id: 67, name: "Keyboard Shortcuts", route: "/shortcuts" },
+  { id: 68, name: "Retry API Logic", route: "/retry-api" },
+  { id: 69, name: "Error Boundary Demo", route: "/error-boundary" },
+  { id: 70, name: "Virtualized List", route: "/virtual-list" },
+
+  // HARD (71–100)
+  { id: 71, name: "Full Kanban Board", route: "/kanban-full" },
+  { id: 72, name: "Rich Text Editor", route: "/text-editor" },
+  { id: 73, name: "Realtime Chat Simulation", route: "/chat-realtime" },
+  { id: 74, name: "Collaborative Todo", route: "/collab-todo" },
+  { id: 75, name: "Code Editor UI", route: "/code-editor" },
+
+  { id: 76, name: "Advanced Table", route: "/table-pro" },
+  { id: 77, name: "Ecommerce Product Page", route: "/product-page" },
+  { id: 78, name: "Form Builder JSON", route: "/form-builder-json" },
+  { id: 79, name: "Role Based Dashboard", route: "/role-dashboard" },
+  { id: 80, name: "Multi Language App", route: "/i18n-app" },
+
+  { id: 81, name: "Video Player", route: "/video-player" },
+  { id: 82, name: "Infinite Canvas", route: "/canvas" },
+  { id: 83, name: "Whiteboard App", route: "/whiteboard" },
+  { id: 84, name: "Trello Clone", route: "/trello-clone" },
+  { id: 85, name: "Slack Chat UI", route: "/slack-ui" },
+
+  { id: 86, name: "Search Engine UI", route: "/search-ui" },
+  { id: 87, name: "Google Keep Clone", route: "/keep-clone" },
+  { id: 88, name: "Expense Tracker", route: "/expense-tracker" },
+  { id: 89, name: "Social Media Feed", route: "/social-feed" },
+  { id: 90, name: "Quiz App", route: "/quiz-app" },
+
+  { id: 91, name: "Multi Tab Sync", route: "/multi-tab-sync" },
+  { id: 92, name: "Optimistic UI Updates", route: "/optimistic-ui" },
+  { id: 93, name: "Undo Redo System", route: "/undo-redo" },
+  { id: 94, name: "Plugin Based UI", route: "/plugin-ui" },
+  { id: 95, name: "Validation Engine", route: "/validation-engine" },
+
+  { id: 96, name: "Custom Hooks Library", route: "/custom-hooks" },
+  { id: 97, name: "State Management System", route: "/mini-redux" },
+  { id: 98, name: "Custom Router", route: "/custom-router" },
+  { id: 99, name: "Component Library", route: "/component-library" },
+  { id: 100, name: "Full Dashboard App", route: "/full-dashboard" },
+];
