@@ -11,7 +11,7 @@ export default function Navbar() {
       {/* Right - Links */}
       <div className="flex items-center gap-6">
         <Link
-          to="/docs"
+          to="https://github.com/psudocode-monk/machine-coding-test"
           className="text-gray-700 hover:text-gray-900 transition"
         >
           Docs
