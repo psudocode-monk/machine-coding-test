@@ -4,6 +4,7 @@ import CounterApp from "./pages/CounterApp";
 import LandingPage from "./components/LandingPage";
 import Dashboard from "./components/Dashboard";
 import Error from "./components/Error";
+import ToggleButton from "./pages/ToggleButton";
 
 const appRouter = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const appRouter = createBrowserRouter([
       {
         path: "counter-app",
         element: <CounterApp />,
+      },
+      {
+        path: "toggle-button",
+        element: <ToggleButton />,
       },
     ],
   },
