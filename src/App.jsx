@@ -5,6 +5,7 @@ import LandingPage from "./components/LandingPage";
 import Dashboard from "./components/Dashboard";
 import Error from "./components/Error";
 import ToggleButton from "./pages/ToggleButton";
+import CharacterCounter from "./pages/CharacterCounter";
 
 const appRouter = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const appRouter = createBrowserRouter([
       {
         path: "toggle-button",
         element: <ToggleButton />,
+      },
+      {
+        path: "character-counter",
+        element: <CharacterCounter />,
       },
     ],
   },
