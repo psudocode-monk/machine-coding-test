@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard";
 import Error from "./components/Error";
 import ToggleButton from "./pages/ToggleButton";
 import CharacterCounter from "./pages/CharacterCounter";
+import ControlledForm from "./pages/ControlledForm";
 
 const appRouter = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const appRouter = createBrowserRouter([
       {
         path: "character-counter",
         element: <CharacterCounter />,
+      },
+      {
+        path: "form-validation",
+        element: <ControlledForm />,
       },
     ],
   },
