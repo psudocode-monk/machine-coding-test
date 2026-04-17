@@ -46,8 +46,8 @@ export default function DynamicInputs() {
 
     setInputs((prev) => [...prev, newInput]);
 
-    setType("text");
-    setPlaceholder("Enter text");
+    setType("");
+    setPlaceholder("");
     setError("");
   };
 
