@@ -33,8 +33,8 @@ export default function DynamicInputs() {
   const [error, setError] = useState("");
 
   const addInputs = () => {
-    if (!type || !placeholder) {
-      setError("All fields are required");
+    if (!type) {
+      setError("Type of input field is required");
       return;
     }
 
