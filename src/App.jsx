@@ -7,6 +7,7 @@ import Error from "./components/Error";
 import ToggleButton from "./pages/ToggleButton";
 import CharacterCounter from "./pages/CharacterCounter";
 import ControlledForm from "./pages/ControlledForm";
+import DynamicInputs from "./pages/DynamicInputs";
 
 const appRouter = createBrowserRouter([
   {
@@ -37,6 +38,10 @@ const appRouter = createBrowserRouter([
       {
         path: "form-validation",
         element: <ControlledForm />,
+      },
+      {
+        path: "dynamic-inputs",
+        element: <DynamicInputs />,
       },
     ],
   },
