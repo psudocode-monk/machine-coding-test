@@ -9,6 +9,7 @@ import CharacterCounter from "./pages/CharacterCounter";
 import ControlledForm from "./pages/ControlledForm";
 import DynamicInputs from "./pages/DynamicInputs";
 import Todo from "./pages/Todo";
+import TodoLocalStorage from "./pages/TodoLocalStorage";
 
 const appRouter = createBrowserRouter([
   {
@@ -47,6 +48,10 @@ const appRouter = createBrowserRouter([
       {
         path: "todo-crud",
         element: <Todo />,
+      },
+      {
+        path: "todo-storage",
+        element: <TodoLocalStorage />,
       },
     ],
   },
