@@ -10,6 +10,7 @@ import ControlledForm from "./pages/ControlledForm";
 import DynamicInputs from "./pages/DynamicInputs";
 import Todo from "./pages/Todo";
 import TodoLocalStorage from "./pages/TodoLocalStorage";
+import MultipleCheckBox from "./pages/MultipleCheckBox";
 
 const appRouter = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const appRouter = createBrowserRouter([
       {
         path: "todo-storage",
         element: <TodoLocalStorage />,
+      },
+      {
+        path: "checkbox-group",
+        element: <MultipleCheckBox />,
       },
     ],
   },
