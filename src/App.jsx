@@ -11,6 +11,7 @@ import DynamicInputs from "./pages/DynamicInputs";
 import Todo from "./pages/Todo";
 import TodoLocalStorage from "./pages/TodoLocalStorage";
 import MultipleCheckBox from "./pages/MultipleCheckBox";
+import Accordion from "./pages/Accordion";
 
 const appRouter = createBrowserRouter([
   {
@@ -57,6 +58,10 @@ const appRouter = createBrowserRouter([
       {
         path: "checkbox-group",
         element: <MultipleCheckBox />,
+      },
+      {
+        path: "accordion-single",
+        element: <Accordion />,
       },
     ],
   },
